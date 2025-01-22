@@ -275,9 +275,11 @@ nav a {
 /* our stories */
 .our-stories {
     margin-top: 50px;
-    margin-left: -80px;
+    margin-left: -280px;
     margin-right: auto;
-}
+    
+
+    } 
 
 .our-stories-container {
     /* width: 100%;
@@ -289,13 +291,15 @@ nav a {
     justify-content: center;
     align-items: center;
 
-
-
     background: url('../assets/bg.png'), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
-    background-size: cover;
+    /* background-size: 100%; */
     background-repeat: no-repeat;
-    background-position: center;
+   padding-bottom: 100px;
+    
 }
+
+   
+
 
 .our-storiestitile {
     color: rgb(0, 0, 0);
@@ -325,6 +329,7 @@ nav a {
     margin-right: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
+    margin-left: 65px;
 
 }
 
@@ -442,8 +447,29 @@ nav a {
     margin-top: -25px;
 }
 
+.enrollx{
+    justify-content: center;
+    text-align: center;
+    margin-top: -60px;
+    align-items: center;
+    margin-left: 250px;
+}
 
-
+.view{
+/* 
+    margin-left: -250px; */
+    width: 197px;
+height: 50px;
+border-radius: 12px;
+background: rgb(17, 17, 17);
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+   
+}
 
 
 
@@ -498,10 +524,19 @@ nav a {
     body {
         margin: 0;
         padding: 0;
-        width: 100%;
+        /* width: 100%; */
 
     }
-
+    main{
+        margin: 0;
+        padding: 0;
+        /* width: 100%; */
+    }
+    main {
+        background-image: url('../assets/bg.png');
+        background-repeat: repeat;
+        background-position: auto;
+    }
     nav {
         width: 100%;
         border-bottom: 2px solid orange;/ padding-bottom: 5px;
@@ -513,7 +548,8 @@ nav a {
     .nav-title,
     .nav-log,
     .button-con,
-    .arrow {
+    .arrow,
+    .box1 {
         display: none;
     }
 
@@ -577,6 +613,14 @@ nav a {
     /* standard curriculm */
     .standard-curriculum {
         margin-top: -40px;
+      justify-content: center;
+      align-items: center;
+      background-image: url('../assets/bg.png');
+      background-position-y: center ;
+      background-repeat: repeat-x;
+      background-repeat: repeat-y;
+    
+
     }
 
     .curriculum {
@@ -641,4 +685,110 @@ nav a {
         margin-bottom: 40px;
     }
 
+    /* our stories */
+    .our-stories{
+        width:50%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 30px;
+       
+       
+     
+     
+    }
+
+
+.box2 {
+    width: 173.09px;
+    height: 179.59px;
+
 }
+
+.our-stories-container {
+   
+    gap: 11px;
+    
+    background: url('../assets/bg.png'), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+     background-size: cover; 
+    background-repeat: repeat-x;
+   
+}
+
+
+.card-image {
+    width: 100%;
+}
+.card-buttony{
+margin-left: -20px;
+margin-top: -20px;
+}
+    
+.date-btn {
+    width: 103.91px;
+    height: 22.83px;
+    color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 9.13px;
+font-weight: 500;
+line-height: 17.12px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
+
+
+.box-title{
+    color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 9.13px;
+font-weight: 700;
+line-height: 17.12px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: -15px;
+margin-bottom: 10px;
+    /* margin-right: -10px; */
+    
+
+}
+.fix{
+    margin-bottom: 10px;
+    margin-right: -5px;
+}
+.box-content2{
+margin-right: -80px;
+padding-right: -50px;
+}
+
+.box2{
+    margin-right: -5px;
+}
+.our-storiestitile{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   margin-left:50px;
+   width: 250px;
+height: 57.5px;
+}
+
+
+.enrollx{
+    margin-left: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
